@@ -7,7 +7,7 @@ const app = express();
 require('dotenv').config();
 
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: 'https://learn-hub-frontend.vercel.app'
 }));
 app.use(express.json());
 
